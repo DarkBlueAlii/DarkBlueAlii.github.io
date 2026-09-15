@@ -24,7 +24,7 @@ footer{display:flex;justify-content:space-between;gap:1rem;padding:1.8rem max(3.
   --gold:#c58b2a;
   --ink:#152433;
   --text:#435466;
-  --muted:#68798a;
+  --muted:#647587;
   --line:#d6e0e7;
   --surface:#f3f7f9;
   --surface-2:#e8f0f4;
@@ -127,11 +127,11 @@ h1,h2,h3,.brand-name,.contact-links strong{font-family:"Manrope","Source Sans 3"
 .credential-panel li{grid-template-columns:105px 1fr;gap:1.1rem;font-size:.92rem}
 .credential-panel li span{font-size:.72rem;color:#74c5d0}
 
-.contact{background:linear-gradient(135deg,#2387bd 0%,#1b779f 62%,var(--teal) 100%)}
+.contact{background:linear-gradient(135deg,#4fa8c7 0%,#55afbe 62%,#61b8bf 100%)}
 .contact .overline,.contact h2,.contact-links strong,.contact-links b{color:#08253a}
-.contact-copy>p:last-child{color:#113d54}
-.contact-links a{border-bottom-color:rgba(8,37,58,.28)}
-.contact-links span{font-size:.72rem;color:#164b63}
+.contact-copy>p:last-child{color:#0b263d}
+.contact-links a{border-bottom-color:rgba(8,37,58,.32)}
+.contact-links span{font-size:.72rem;color:#0b263d}
 footer{font-size:.74rem}
 
 @media(max-width:1050px){

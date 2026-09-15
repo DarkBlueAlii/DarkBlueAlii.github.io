@@ -66,13 +66,93 @@
     </section>
 
     <section class="projects section" id="projects" aria-labelledby="projects-heading">
-      <div class="section-label reveal"><span>03</span> Selected projects</div>
-      <div class="section-intro reveal"><p class="overline">Canadian academic work</p><h2 id="projects-heading">Evidence of analysis, communication, and project delivery.</h2></div>
+      <div class="section-label reveal"><span>03</span> Selected academic projects</div>
+      <div class="section-intro project-intro reveal"><p class="overline">University & college work</p><div><h2 id="projects-heading">Analysis translated into clear engineering decisions.</h2><p class="section-summary">A curated selection from my Canadian graduate and postgraduate studies. Each entry identifies the project setting and my role; results are presented as academic findings, not professional design work.</p></div></div>
+
       <div class="project-grid">
-        <article class="project-card project-feature reveal"><div class="project-id"><span>Structural engineering</span><span>01</span></div><h3>Seismic response of an RC frame with fluid viscous dampers</h3><p>Modelled a three-storey reinforced-concrete frame in ETABS and compared damper layouts and total damping coefficients under Loma Prieta and Northridge ground motions using direct-integration time-history analysis.</p><div class="results"><div><strong>18–20%</strong><span>Loma Prieta response reductions</span></div><div><strong>30–40%</strong><span>Northridge response reductions</span></div></div><div class="tag-row"><span>ETABS</span><span>MATLAB</span><span>Time history</span></div><a href="https://github.com/DarkBlueAlii/earthquake-engineering-project" target="_blank" rel="noreferrer">Open project repository <span aria-hidden="true">↗</span></a></article>
-        <article class="project-card reveal"><div class="project-id"><span>Sustainable materials</span><span>02</span></div><h3>Recycled concrete vs. virgin aggregate LCA</h3><p>Built an openLCA cradle-to-site comparison for a 20-km road subbase. Assessed global-warming potential, cumulative energy demand, and acidification, with transport and electricity sensitivity checks.</p><p class="project-callout"><strong>≈27%</strong> lower modelled GWP for the recycled-concrete base case.</p><div class="tag-row"><span>openLCA</span><span>ELCD 3.2</span><span>ISO 14040/44</span></div></article>
-        <article class="project-card reveal"><div class="project-id"><span>Municipal systems</span><span>03</span></div><h3>Sensor-based water infrastructure monitoring</h3><p>Managed a four-person project examining sensor-based approaches to water-main risk in Ontario municipalities. Integrated technical, economic, environmental, social, and regulatory considerations into the final communication package.</p><div class="tag-row"><span>Project management</span><span>Water systems</span><span>Technical writing</span></div></article>
-        <article class="project-card reveal"><div class="project-id"><span>Construction management</span><span>04</span></div><h3>Municipal water-main and sewer project simulations</h3><p>Reviewed drawings and specifications and prepared quantity takeoffs, pricing inputs, schedules, procurement items, risk and quality plans, and contract-administration documents for Canadian municipal project scenarios.</p><div class="tag-row"><span>Estimating</span><span>MS Project</span><span>Quantity takeoff</span></div></article>
+        <article class="project-card project-feature reveal">
+          <div class="project-id"><span>Structural dynamics</span><span>01</span></div>
+          <div class="project-context"><span>Individual project</span><span>University of Windsor · 2025</span></div>
+          <h3>Seismic performance of an RC frame with fluid viscous dampers</h3>
+          <p>Modelled a three-storey, three-bay reinforced-concrete frame in ETABS and compared base-only and distributed damper layouts under Loma Prieta and Northridge records. MATLAB and Excel supported response processing and comparison.</p>
+          <div class="results"><div><strong>18–20%</strong><span>typical Loma Prieta reductions</span></div><div><strong>30–40%</strong><span>typical Northridge reductions</span></div></div>
+          <p class="project-insight"><span>Decision</span> The distributed 1,800 kN·s/m configuration gave the strongest overall response control in the model.</p>
+          <div class="tag-row"><span>ETABS</span><span>MATLAB</span><span>Time-history analysis</span></div>
+          <a href="https://github.com/DarkBlueAlii/earthquake-engineering-project" target="_blank" rel="noreferrer">Open project repository <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-id"><span>Life-cycle assessment</span><span>02</span></div>
+          <div class="project-context"><span>Project lead & lead analyst</span><span>University of Windsor · 2026</span></div>
+          <h3>Recycled concrete base vs. virgin aggregate base</h3>
+          <p>Led scope development, openLCA modelling, verification, sensitivity analysis, reporting, and team coordination for a cradle-to-site comparison of road-base alternatives over a 20-km corridor.</p>
+          <p class="project-callout"><strong>234.5 t CO₂e</strong> lower modelled impact for the recycled-concrete scenario—about 27.4% below the virgin-aggregate base case.</p>
+          <p class="project-note">Screening-level study using European proxy datasets; conclusions were tested against transport, electricity, and material-loss assumptions.</p>
+          <div class="tag-row"><span>openLCA</span><span>ReCiPe 2016</span><span>Sensitivity analysis</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-id"><span>Finite element analysis</span><span>03</span></div>
+          <div class="project-context"><span>Two-person project</span><span>University of Windsor · 2025</span></div>
+          <h3>Cantilever-beam mesh sensitivity study</h3>
+          <p>Built Abaqus plane-stress models to examine how element aspect ratio affects tip deflection and maximum bending stress. Compared five meshes with analytical beam-theory solutions.</p>
+          <p class="project-callout"><strong>2.95%</strong> deflection error with the near-square mesh; an aspect ratio of 3.6 gave the closest stress result at 1.39% error.</p>
+          <div class="tag-row"><span>Abaqus/CAE</span><span>MATLAB</span><span>Verification</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-id"><span>Municipal water systems</span><span>04</span></div>
+          <div class="project-context"><span>Project manager · Team of four</span><span>University of Windsor · 2026</span></div>
+          <h3>Sensor-based municipal water-leak monitoring</h3>
+          <p>Directed a multidisciplinary assessment of pressure sensing, targeted acoustic monitoring, and a central data platform for Ontario municipalities. Integrated technical, lifecycle-cost, environmental, social, and regulatory considerations.</p>
+          <p class="project-insight"><span>Recommendation</span> Begin with a measured pilot in high-risk areas, then scale only after validating performance and lifecycle value.</p>
+          <div class="tag-row"><span>Water infrastructure</span><span>IoT strategy</span><span>Technical communication</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-id"><span>Water & wastewater</span><span>05</span></div>
+          <div class="project-context"><span>Individual research paper</span><span>University of Windsor · 2026</span></div>
+          <h3>Dissolved oxygen and nitrogen removal in activated sludge</h3>
+          <p>Synthesized laboratory, pilot, and full-scale evidence on nitrification, simultaneous nitrification-denitrification, process stability, and aeration energy.</p>
+          <p class="project-insight"><span>Finding</span> No universal DO setpoint fits every plant; demand-responsive aeration should target the lowest stable DO that consistently meets ammonia and total-nitrogen limits.</p>
+          <div class="tag-row"><span>Literature synthesis</span><span>Process control</span><span>Wastewater</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-id"><span>Sustainable concrete</span><span>06</span></div>
+          <div class="project-context"><span>Individual project</span><span>University of Windsor · 2026</span></div>
+          <h3>Specifications and low-carbon concrete innovation</h3>
+          <p>Developed an academic Innovation Support Score and applied it to ten representative specification frameworks. Tested whether rankings changed under alternative weighting scenarios.</p>
+          <p class="project-callout"><strong>10 frameworks</strong> compared across carbon requirements, SCM flexibility, strength timing, and EPD provisions.</p>
+          <p class="project-note">The scoring model is an exploratory academic framework, not a validated industry standard.</p>
+          <div class="tag-row"><span>Policy analysis</span><span>Concrete materials</span><span>Sensitivity testing</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-id"><span>Cost & schedule</span><span>07</span></div>
+          <div class="project-context"><span>Team project</span><span>St. Clair College · 2024</span></div>
+          <h3>HealthPlex conceptual estimate and schedule</h3>
+          <p>Contributed to a multidisciplinary estimate integrating architectural, structural, civil, mechanical, and electrical scopes, supported by quantity takeoffs and a coordinated project schedule.</p>
+          <p class="project-callout"><strong>$28.3M</strong> final team estimate for the conceptual facility, with a 326-day construction schedule.</p>
+          <div class="tag-row"><span>Excel</span><span>Quantity takeoff</span><span>Scheduling</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-id"><span>Asset condition</span><span>08</span></div>
+          <div class="project-context"><span>Team field assignment</span><span>St. Clair College · 2025</span></div>
+          <h3>Winter-maintenance pavement damage assessment</h3>
+          <p>Documented cracking, early pothole formation, catch-basin distress, and localized settlement during a visual parking-lot inspection in Windsor. Connected observed conditions to freeze–thaw action, snowplow abrasion, drainage, and subgrade factors.</p>
+          <div class="tag-row"><span>Visual inspection</span><span>Condition reporting</span><span>Maintenance planning</span></div>
+        </article>
+      </div>
+
+      <div class="additional-work reveal" aria-labelledby="additional-work-heading">
+        <div><p class="overline">Additional project work</p><h3 id="additional-work-heading">Construction management, procurement, and team leadership</h3></div>
+        <ul>
+          <li><strong>LA Fitness project simulation</strong><span>Subcontractor negotiation, permits, documentation, delay impacts, stakeholder communication, and schedule planning.</span></li>
+          <li><strong>Bus shelter renovation proposal</strong><span>Accessibility, risk, quality, schedule, and a $75,000 academic schedule of values.</span></li>
+          <li><strong>HR strategy & organizational design</strong><span>Team leader for a construction-startup case study; coordinated the team and edited the final report.</span></li>
+        </ul>
       </div>
     </section>
 
